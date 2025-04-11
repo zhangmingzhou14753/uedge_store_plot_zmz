@@ -64,6 +64,8 @@ class UEDGECase:
             self.data["ixmp"] = f["ixmp"][()]
             self.data["rm"] = f["rm"][()]
             self.data["zm"] = f["zm"][()]
+            self.data["ex"] = f["ex"][:]
+            self.data["ey"] = f["ey"][:]
     
     def get(self, key):
         """ get data """

@@ -102,6 +102,9 @@ def data_store(v):
         "iysptrx": com.iysptrx,
         "zm": com.zm,
         "rm": com.rm,
+        "ex": bbb.ex,
+        "ey": bbb.ey,
+        
 
     }
 
